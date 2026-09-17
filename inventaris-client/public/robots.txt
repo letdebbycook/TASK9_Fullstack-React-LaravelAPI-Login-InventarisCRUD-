@@ -1,0 +1,14 @@
+# Robots.txt for InventarisPro Fullstack Application
+User-agent: *
+Allow: /
+Allow: /items
+Allow: /categories
+Allow: /about
+Allow: /login
+
+# Prevent crawling of temporary files
+Disallow: /api/
+Disallow: /*.json$
+
+# Search Console Sitemap Directives
+Sitemap: http://localhost:5173/sitemap.xml
